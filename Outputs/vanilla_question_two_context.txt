@@ -1,0 +1,24 @@
+Retrieval Augmented Generation (RAG) is a technique that combines information retrieval and language generation to produce more accurate and informative responses. The augmentation processes in RAG involve enriching the input to the language model with relevant information retrieved from external sources. This can be done through various techniques, including:
+
+**1. Retrieval:**
+
+* **Keyword-based retrieval:** This involves identifying keywords in the user query and searching for relevant documents based on these keywords. This is a simple and efficient approach but can be limited in its ability to understand the context of the query.
+* **Semantic search:** This goes beyond keyword matching to understand the meaning of the query and retrieve documents that are relevant to the underlying concept. This can be achieved through techniques like embedding-based search, where queries and documents are represented as vectors in a semantic space, and documents are retrieved based on their similarity to the query vector.
+* **Passage retrieval:** This involves retrieving specific passages from documents that are relevant to the user query. This allows the language model to access more precise information and avoid generating responses based on irrelevant or ambiguous context.
+
+**2. Augmentation:**
+
+* **Concatenation:** The retrieved information is simply concatenated with the user query before being fed to the language model. This approach is straightforward but can lead to information overload, especially if multiple documents are retrieved.
+* **Summarization:** The retrieved information is summarized to provide a concise and relevant overview of the topic. This can be achieved through techniques like extractive summarization, which selects the most relevant sentences from the retrieved documents, or abstractive summarization, which generates a new summary that captures the key points of the information.
+* **Structured representation:** The retrieved information is transformed into a structured format, such as a knowledge graph or a table, which can be easily processed by the language model. This approach can be particularly useful for tasks that require reasoning or fact-checking.
+* **Contextualization:** The retrieved information is integrated into the context of the user query to enhance its understanding. This can be achieved through techniques like attention mechanisms, which allow the language model to focus on the most relevant parts of the retrieved information.
+
+The choice of augmentation process depends on the specific task and the available resources. For example, if the goal is to generate a comprehensive response that draws from multiple sources, concatenation or summarization may be appropriate. If the goal is to perform a specific task, such as question answering, structured representation or contextualization may be more effective.
+
+**Benefits of RAG:**
+
+* **Improved accuracy:** RAG can access external information to generate more accurate and informative responses.
+* **Enhanced knowledge:** RAG can provide access to a vast amount of knowledge that is not available to the language model alone.
+* **Increased robustness:** RAG can handle queries that are outside the training data of the language model.
+
+Overall, RAG is a powerful technique that can be used to enhance the capabilities of language models. By combining information retrieval with language generation, RAG enables more accurate, informative, and robust responses to user queries.

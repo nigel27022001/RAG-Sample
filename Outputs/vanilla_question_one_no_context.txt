@@ -1,0 +1,16 @@
+RAG stands for **"Red, Amber, Green"**, and it's a simple traffic-light system used for risk assessment and management. 
+
+The categories are straightforward:
+
+* **Red:**  Indicates **high risk**. Action is required immediately to mitigate the risk. 
+* **Amber:** Indicates **medium risk**. Action is needed, but it can be planned and implemented in a timely manner.
+* **Green:** Indicates **low risk**.  The situation is under control and requires minimal monitoring. 
+
+**Here's how RAG is typically used:**
+
+* **Risk Assessment:**  RAG colors can be assigned to different risks based on their likelihood and impact.
+* **Project Management:**  RAG can be used to track the progress of tasks, milestones, and deliverables.
+* **Financial Reporting:**  RAG can be applied to financial indicators, such as revenue, expenses, and profitability.
+* **Health and Safety:**  RAG can be used to assess the safety of work environments and procedures.
+
+**In summary, RAG is a simple and effective tool for categorizing risk levels and guiding decision-making.** 

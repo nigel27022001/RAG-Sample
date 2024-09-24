@@ -1,0 +1,37 @@
+Retrieval Augmented Generation (RAG) is a powerful approach to enhance language models by combining information retrieval with text generation. While there's no official standardized categorization of RAG, we can break it down based on key aspects:
+
+**1. Retrieval Methods:**
+
+* **Keyword-based Retrieval:** Simplest method, where the model retrieves documents based on keywords in the user's query.
+* **Embedding-based Retrieval:** Uses vector representations (embeddings) of both the query and documents to find the most relevant documents. This allows for more nuanced understanding of semantic meaning.
+* **Hybrid Retrieval:** Combines keyword and embedding-based methods for a more robust approach.
+* **Graph-based Retrieval:** Utilizes knowledge graphs to represent relationships between entities, allowing for more complex and structured information retrieval.
+
+**2. Generation Methods:**
+
+* **Traditional Language Models:** Uses pre-trained models like GPT-3 or BERT to generate text based on the retrieved information.
+* **Fine-tuned Language Models:**  Fine-tunes a language model specifically for the task at hand, leading to better performance on the desired domain.
+* **Prompt Engineering:** Carefully crafts prompts to guide the language model towards desired outputs, using the retrieved information as context.
+
+**3. Application Domains:**
+
+* **Question Answering:** Answering user questions based on a knowledge base or set of documents.
+* **Summarization:** Creating concise summaries of long documents or articles.
+* **Content Creation:** Generating creative content like stories, poems, or articles.
+* **Dialogue Systems:** Building chatbots that can engage in natural conversations.
+* **Code Generation:** Generating code based on natural language descriptions.
+
+**4. Architectural Variations:**
+
+* **Dense Retrieval:**  The model retrieves a fixed number of documents, even if they are not highly relevant.
+* **Sparse Retrieval:** The model retrieves only the most relevant documents, potentially leading to a smaller set of documents.
+* **Multi-hop Retrieval:**  The model retrieves documents in multiple stages, using the information from previous stages to refine the retrieval process.
+
+**5. Evaluation Metrics:**
+
+* **Accuracy:** Measures how well the model is able to retrieve relevant information and generate accurate responses.
+* **Relevance:**  Assesses how well the retrieved information is related to the user's query.
+* **Fluency:** Evaluates the quality and readability of the generated text.
+* **Consistency:** Checks for consistency between the generated text and the retrieved information.
+
+Understanding these categories helps you choose the right RAG approach for your specific task and evaluate its performance effectively.

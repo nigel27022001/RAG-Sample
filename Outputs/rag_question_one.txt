@@ -1,0 +1,4 @@
+RAG models can be categorized into three paradigms: Naive RAG, Advanced RAG, and Modular RAG. These paradigms differ in their complexity and flexibility, with Modular RAG being the most advanced, incorporating multiple functional modules and allowing for iterative and adaptive retrieval. 
+
+Sources:
+Documents/Retrieval-Augmented Generation for Large Language Models.pdf

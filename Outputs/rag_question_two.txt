@@ -1,0 +1,4 @@
+The augmentation processes in RAG are designed to enhance the retrieval process and provide more targeted information. There are three main types: iterative retrieval, recursive retrieval, and adaptive retrieval. 
+
+Sources:
+Documents/Retrieval-Augmented Generation for Large Language Models.pdf
